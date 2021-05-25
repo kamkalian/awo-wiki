@@ -2,7 +2,7 @@
 title: Virtuelle Maschine
 description: Virtuelle Maschine mit SSH Key buchen.
 published: true
-date: 2021-01-20T17:22:06.252Z
+date: 2021-05-25T13:42:56.928Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T15:08:40.829Z
@@ -49,9 +49,9 @@ Die Berechtigung kann man sich wie folgt anschauen:
       * **Der private SSH Key sollte nur ein "rw" im ersten Block enthalten.**
       Sollte die Berechtigung anders aussehen kann man sie mit folgendem Befehl setzen: 
       ```bash
-        chmod 600 id_rsa
-        ```
-- Die Date `id_rsa.pub` ist der öffentliche Schlüssel. Dieser wird später im Server hinterlegt.
+      chmod 600 id_rsa
+      ```
+- Die Datei `id_rsa.pub` ist der öffentliche Schlüssel. Dieser wird später im Server hinterlegt.
 
 # Server buchen
 Beim Buchen des Servers kann man bei Hetzner direkt einen SSH Key hinterlegen. Dies ist praktisch und macht weniger arbeit. 
