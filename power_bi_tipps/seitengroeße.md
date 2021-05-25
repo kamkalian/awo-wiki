@@ -2,7 +2,7 @@
 title: Seitengröße ändern
 description: 
 published: true
-date: 2021-05-25T13:13:53.741Z
+date: 2021-05-25T13:17:01.522Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T10:53:29.315Z
@@ -14,4 +14,4 @@ Dies ist auch sinnvoll, da ein Dashboard am Bildschirm betrachtet und so optimal
 
 In einigen Fällen braucht man vielleicht, nach unten hin, mehr Platz. Um z.B. noch eine Tabelle oder Visual zu plazieren.
 
-![2021-05-25_15_12_32-unbenannt_-_power_bi_desktop.png](/2021-05-25_15_12_32-unbenannt_-_power_bi_desktop.png)
+![2021-05-25_15_12_32-unbenannt_-_power_bi_desktop.png](/2021-05-25_15_12_32-unbenannt_-_power_bi_desktop.png =400x)
