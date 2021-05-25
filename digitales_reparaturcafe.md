@@ -2,7 +2,7 @@
 title: Digitales ReparaturCafé
 description: 
 published: true
-date: 2021-05-25T19:23:29.485Z
+date: 2021-05-25T19:23:55.792Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T05:35:33.274Z
@@ -11,5 +11,5 @@ dateCreated: 2021-01-21T05:35:33.274Z
 # test
 
 
-- [Git Commits mit Signaturen*Git so einrichten, dass Commits immer signiert werden.*](/digitales_reparaturcafe/git_commit_signatur)
+- [Git Commits immer mit Signatur*Git so einrichten, dass Commits immer signiert werden.*](/digitales_reparaturcafe/git_commit_signatur)
 {.links-list}
