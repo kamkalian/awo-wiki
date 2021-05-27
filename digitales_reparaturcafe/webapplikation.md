@@ -2,7 +2,7 @@
 title: Webapplikation
 description: 
 published: true
-date: 2021-05-27T06:08:08.808Z
+date: 2021-05-27T09:47:48.131Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T05:56:11.362Z
