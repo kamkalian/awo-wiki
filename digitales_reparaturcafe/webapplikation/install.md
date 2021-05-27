@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-27T09:36:13.771Z
+date: 2021-05-27T13:46:27.726Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -39,5 +39,7 @@ nvm install --lts
 ```
 ![terminal_nvm_install_nodejs.png](/terminal_nvm_install_nodejs.png)
 
-
-
+## Webapplikation runterladen
+Der Source Code liegt auf GitHub und kann mit folgendem Befehl runtergeladen werden.
+```bash
+git clone https://github.com/kamkalian/reparaturcafe2.git
