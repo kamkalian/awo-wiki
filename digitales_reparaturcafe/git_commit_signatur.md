@@ -1,8 +1,8 @@
 ---
-title: Git Comics mit Signaturen
+title: Git Commits mit Signaturen
 description: 
 published: true
-date: 2021-05-25T19:30:48.539Z
+date: 2021-05-27T07:06:22.850Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T18:33:43.560Z
