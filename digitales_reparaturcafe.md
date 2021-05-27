@@ -2,15 +2,12 @@
 title: Digitales ReparaturCafé
 description: 
 published: true
-date: 2021-05-25T19:25:00.123Z
+date: 2021-05-27T07:09:43.177Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T05:35:33.274Z
 ---
 
-# Entwicklungsumgebung
-
-## Git
-
-- [Git Commits immer mit Signatur*Git so einrichten, dass Commits immer signiert werden.*](/digitales_reparaturcafe/git_commit_signatur)
+- [Datenbank*Technik und Entity Modell.*](/digitales_reparaturcafe/datenbank)
+- [Webapplikation*Eine Webseite basierend auf React.js, Flask, Python.*](/digitales_reparaturcafe/webapplikation)
 {.links-list}
