@@ -2,7 +2,7 @@
 title: Git Commits mit Signaturen
 description: 
 published: true
-date: 2021-05-27T07:06:55.427Z
+date: 2021-05-27T07:16:04.829Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T18:33:43.560Z
