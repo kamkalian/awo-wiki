@@ -2,7 +2,7 @@
 title: Hallo.
 description: Wiki auf dem Server in der AWO Oberlar
 published: true
-date: 2021-01-21T06:20:23.734Z
+date: 2021-05-30T04:24:44.682Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T12:05:36.560Z
