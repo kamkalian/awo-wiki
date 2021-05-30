@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T05:09:09.945Z
+date: 2021-05-30T05:11:45.213Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -78,6 +78,7 @@ Als nächstes geben wir dem User ein paar Berechtigungen:
 ```
 GRANT ALL PRIVILEGES ON reparaturcafe2.* TO 'oskar2'@'localhost';
 ```
+Damit sind wir hier erstmal fertig. Die Datenbanktabellen werden später über Flask-Migrate erstellt, dazu gibt es schon vorbereitet Scripts die nur noch ausgeführt werden müssen. 
 
 ## Webapplikation runterladen
 Der Source Code liegt auf GitHub. Mit folgendem Befehl laden wir das Repo herunter. Dabei wird in dem aktuellen Verzeichnis ein neuer Ordner angelegt.
