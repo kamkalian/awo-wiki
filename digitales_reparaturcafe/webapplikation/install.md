@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T07:39:18.830Z
+date: 2021-05-30T11:03:07.825Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -133,4 +133,12 @@ Installiere Apache2:
 ```bash
 sudo apt-get install apache2
 ```
+
+Konfiguration erstellen
+
+Certbot
+
+Konfiguration aktivieren
+
+Jetzt läuft bereits unser UI und wir können die Webapplikation aufrufen. (Vorrausgesetzt es gibt eine Subdomain, die auf diesen Server zeigt)
 
