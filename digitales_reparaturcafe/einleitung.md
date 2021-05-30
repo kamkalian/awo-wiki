@@ -2,7 +2,7 @@
 title: Einleitung
 description: 
 published: true
-date: 2021-05-30T17:02:15.014Z
+date: 2021-05-30T17:05:50.387Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T17:00:22.187Z
@@ -18,7 +18,8 @@ Die API ist in Python mit Hilfe des FLASK Frameworks geschrieben und nimmt den R
 
 
 # MySQL/MariaDB Datenbank
-
+Die Webapplikation speichert fast alle Daten in eine MySQL Datenbank. 
+Bei MariaDB handelt es sich um einen Fork von MySQL, der seit einigen Jahren parallel weiterentwickelt wird.
 ## Entity Modell
 ![entity_modell_reparaturcafe.png](/entity_modell_reparaturcafe.png)
 [reparaturcafe.pdf](/reparaturcafe.pdf)
