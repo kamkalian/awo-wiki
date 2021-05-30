@@ -2,7 +2,7 @@
 title: Einleitung
 description: 
 published: true
-date: 2021-05-30T17:01:28.861Z
+date: 2021-05-30T17:02:15.014Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T17:00:22.187Z
@@ -17,13 +17,13 @@ Die API ist in Python mit Hilfe des FLASK Frameworks geschrieben und nimmt den R
 
 
 
-## MySQL/MariaDB Datenbank
+# MySQL/MariaDB Datenbank
 
-### Entity Modell
+## Entity Modell
 ![entity_modell_reparaturcafe.png](/entity_modell_reparaturcafe.png)
 [reparaturcafe.pdf](/reparaturcafe.pdf)
 
-### MySQL Server auf dem Mac starten
+## MySQL Server auf dem Mac starten
 ```bash
 mysql.server start
 ```
