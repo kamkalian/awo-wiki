@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T05:11:45.213Z
+date: 2021-05-30T05:33:38.629Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -86,4 +86,5 @@ Der Source Code liegt auf GitHub. Mit folgendem Befehl laden wir das Repo herunt
 git clone https://github.com/kamkalian/reparaturcafe2.git
 ```
 
-## 
+## Python Pakete in einer Venv installieren
+Ein Teil der Webapplikation funktioniert mit Python und für Python werden einige zusätzliche Module benötigt. Diese Module werden üblicherweise in einer eigenen Python Umgebung installiert.
