@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T05:33:38.629Z
+date: 2021-05-30T06:39:12.190Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -86,5 +86,14 @@ Der Source Code liegt auf GitHub. Mit folgendem Befehl laden wir das Repo herunt
 git clone https://github.com/kamkalian/reparaturcafe2.git
 ```
 
-## Python Pakete in einer Venv installieren
-Ein Teil der Webapplikation funktioniert mit Python und für Python werden einige zusätzliche Module benötigt. Diese Module werden üblicherweise in einer eigenen Python Umgebung installiert.
+## Python und benötigte Module in einer Venv installieren
+Ein Teil der Webapplikation funktioniert mit Python und dafür werden einige zusätzliche Module benötigt. Diese Module werden üblicherweise in einer eigenen Python Umgebung installiert.
+Wechsle in das api Verzeichnis, welches sich im reparaturcafe2 Verzeichnis befindet:
+```bash
+cd reparaturcafe2/api
+```
+Erstelle nun die Venv:
+```bash
+python3 -m venv venv
+```
+Sollte python3 noch nicht installiert sein, kannst du es mit `sudo apt-get install python3` installieren.
