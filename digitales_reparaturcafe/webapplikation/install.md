@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T04:52:05.988Z
+date: 2021-05-30T04:54:52.160Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -63,7 +63,14 @@ Dazu rufen wir mysql auf:
 sudo mysql
 ```
 Wir landen nun in der Konsole und können hier weitere mysql Befehle absetzen.
+Als erstes erstellen wir die Datenbank "reparaturcafe2":
+```bash
+mysql> CREATE DATABASE reparaturcafe2;
+```
+Anschließend erstellen wir einen User mit Namen "oskar2":
+```bash
 
+```
 
 ## Webapplikation runterladen
 Der Source Code liegt auf GitHub. Mit folgendem Befehl laden wir das Repo herunter. Dabei wird in dem aktuellen Verzeichnis ein neuer Ordner angelegt.
