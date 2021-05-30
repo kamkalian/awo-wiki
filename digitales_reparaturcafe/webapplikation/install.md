@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T06:54:01.642Z
+date: 2021-05-30T07:39:18.830Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -11,43 +11,8 @@ dateCreated: 2021-05-27T07:36:34.340Z
 # Webapplikation und notwendige Pakete installieren
 Zum Betrieb der Webbapplikation müssen einige Pakete installiert werden.
 In dieser Anleitung werden diese Pakete Schritt für Schritt installiert und eingerichtet. Es wird vorrausgestzt das ein Linux Server, z.B. eine virtuelle Maschine oder ein PC, Notebook, Raspbeery Pi, etc., mit installiertem Linux vorhanden ist.
-Die Installation und Einrichtung erfolgt weitestgehend auf der Konsole. Eine Grafische Oberfläche ist auf dem Server nicht erforderlich.
+Die Installation und Einrichtung erfolgt auf der Konsole. Eine Grafische Oberfläche ist auf dem Server nicht erforderlich.
 
-## Node.js installieren
-Node.js ist eine JavaScript Laufzeitumgebung, welche wir für zum Bau des UI's, unserer Webapplikation, benötigen.
-
-Im ersten Schritt installieren wir uns NVM über ein Script. NVM ist ein Node Version Manager, der uns später Node.js installiert.
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-```
-Das Script lädt NVM aus dem Github Repo [https://github.com/nvm-sh/nvm] und fügt ein paar Pfade zu deinem Bash-Profil(~/.bash_profile, ~/.zshrc, ~/.profile, oder ~/.bashrc) hinzu.
-
-Starte jetzt deine Shell neu:
-```bash
-source ~/.bashrc
-```
-
-Folgender Befehl zeigt dir an, ob schon Node.js Versionen vorhanden sind:
-```bash
-nvm ls
-```
-![terminal_nvm_ls.png](/terminal_nvm_ls.png)
-
-Die letzte Node.js Version installieren:
-```bash
-nvm install --lts
-```
-![terminal_nvm_install_nodejs.png](/terminal_nvm_install_nodejs.png)
-
-Nachdem node.js installiert ist lassen wir alle benötigten Pakete automatisch installieren.
-Gebe dazu folgenden Befehl ein:
-```bash
-npm install
-```
-Nun lassen wir das UI der Webapplikation zusammen bauen:
-```bash
-npm run build
-```
 
 ## MySQL/MariaDB installieren
 Die Webapplikation speichert fast alle Daten in eine MySQL Datenbank. 
@@ -63,6 +28,7 @@ Sollte noch kein MySQL oder MariaDB installiert sein, so kannst du eines der bei
 ```bash
 sudo apt install mariadb-server
 ```
+
 
 ## Datenbank und User anlegen
 Egal ob ihr MySQL oder MariaDB verwendet, die Befehle sind bei beiden identisch.
@@ -90,11 +56,51 @@ GRANT ALL PRIVILEGES ON reparaturcafe2.* TO 'oskar2'@'localhost';
 ```
 Damit sind wir hier erstmal fertig. Die Datenbanktabellen werden später über Flask-Migrate erstellt, dazu gibt es schon vorbereitet Scripts die nur noch ausgeführt werden müssen. 
 
+
 ## Webapplikation runterladen
-Der Source Code liegt auf GitHub. Mit folgendem Befehl laden wir das Repo herunter. Dabei wird in dem aktuellen Verzeichnis ein neuer Ordner angelegt.
+Der Source Code liegt auf GitHub. Am einfachsten ist es wenn das Repo direkt in das standard Verzeichnis des Webservers abgelegt wird. Wechsle also in das Verzeichnis `/var/www/html` und lade das Repo herunter. 
 ```bash
+cd /var/www/html
 git clone https://github.com/kamkalian/reparaturcafe2.git
 ```
+
+
+## Node.js installieren
+Node.js ist eine JavaScript Laufzeitumgebung, welche wir für zum Bau des UI's, unserer Webapplikation, benötigen.
+
+Im ersten Schritt installieren wir uns NVM über ein Script. NVM ist ein Node Version Manager, der uns Node.js installiert.
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+Das Script lädt NVM aus dem Github Repo [https://github.com/nvm-sh/nvm] und fügt ein paar Pfade zu deinem Bash-Profil(~/.bash_profile, ~/.zshrc, ~/.profile, oder ~/.bashrc) hinzu.
+
+Starte jetzt deine Shell neu:
+```bash
+source ~/.bashrc
+```
+
+Folgender Befehl zeigt dir an, ob schon Node.js Versionen vorhanden sind:
+```bash
+nvm ls
+```
+![terminal_nvm_ls.png](/terminal_nvm_ls.png)
+
+Die letzte Node.js Version installieren:
+```bash
+nvm install --lts
+```
+![terminal_nvm_install_nodejs.png](/terminal_nvm_install_nodejs.png)
+
+Nachdem node.js installiert ist lassen wir alle benötigten Pakete, die in der package.json aufgelistet sind, automatisch installieren.
+Gebe dazu folgenden Befehl ein:
+```bash
+npm install
+```
+Nun lassen wir über npm das UI der Webapplikation zusammen bauen:
+```bash
+npm run build
+```
+
 
 ## Python und benötigte Module in einer Venv installieren
 Ein Teil der Webapplikation funktioniert mit Python und dafür werden einige zusätzliche Module benötigt. Diese Module werden üblicherweise in einer eigenen Python Umgebung installiert.
@@ -117,3 +123,14 @@ Alle benötigten Module sind in der requirements.txt aufgelistet. Mit dem Tool "
 pip install -r requirements.txt
 ```
 Nach kurzer Zeit sind alle benötigten Module installiert.
+
+
+## Webserver Apache2 installieren und einrichten
+Der Webserver verarbeitet die Anfragen und schickt sie weiter an unser UI oder unsere API.
+In diesem Beispiel verwenden wir Apache2 als Webserver.
+
+Installiere Apache2:
+```bash
+sudo apt-get install apache2
+```
+
