@@ -2,12 +2,22 @@
 title: Digitales ReparaturCafé
 description: 
 published: true
-date: 2021-05-27T07:09:43.177Z
+date: 2021-05-30T16:52:21.508Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T05:35:33.274Z
 ---
 
+Dieses digitale Reparaturcafe ist eine Art Ticketsystem, dass als Werzeug zur Dokumentation von Reparaturen dient.
+- Bequeme Zugänge und Berechtigungen über QR-Codes, bzw. Tokens. Es gibt keinen klassischen Login.
+- Schnelle Erfassung defekter Geräte, Schritt für Schritt in einem modernen Formular.
+- Leichte zuordnung von Besuchern über Aufgaben-QR-Codes.
+- Aufgaben über Geräte-QR-Codes einfach aufrufen und bearbeiten.
+- 64bit Tokens als QR-Code.
+- MySQL Datenbank mit solidem Datenbankmodell.
+ 
+## Themen
+- [Einleitung*Eine kurze Erklärung des Systems*](/digitales_reparaturcafe/einleitung)
 - [Datenbank*Technik und Entity Modell.*](/digitales_reparaturcafe/datenbank)
 - [Webapplikation*Eine Webseite basierend auf React.js, Flask, Python.*](/digitales_reparaturcafe/webapplikation)
 {.links-list}
