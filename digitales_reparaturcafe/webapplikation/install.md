@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T05:03:44.139Z
+date: 2021-05-30T05:09:09.945Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -74,8 +74,10 @@ CREATE USER 'oskar2'@'localhost' IDENTIFIED BY 'PASSWORD';
 - Als 'PASSWORD' setzt ihr euer Passwort ein.
 
 Mit diesem User wird später die Webapplikation auf die Datenbank zugreifen.
-Als nächstes geben wir dem User ein paar Berechtigungen, er soll lesen und schreiben dürfen:
-
+Als nächstes geben wir dem User ein paar Berechtigungen:
+```
+GRANT ALL PRIVILEGES ON reparaturcafe2.* TO 'oskar2'@'localhost';
+```
 
 ## Webapplikation runterladen
 Der Source Code liegt auf GitHub. Mit folgendem Befehl laden wir das Repo herunter. Dabei wird in dem aktuellen Verzeichnis ein neuer Ordner angelegt.
