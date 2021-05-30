@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T16:59:00.740Z
+date: 2021-05-30T17:04:53.480Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -15,8 +15,6 @@ Die Installation und Einrichtung erfolgt auf der Konsole. Eine Grafische Oberfl√
 
 
 ## MySQL/MariaDB installieren
-Die Webapplikation speichert fast alle Daten in eine MySQL Datenbank. 
-Daher m√ºssen wir den Datanbankserver MySQL oder MariaDB installieren. Bei MariaDB handelt es sich um einen Fork von MySQL, der seit einigen Jahren parallel weiterentwickelt wird.
 Auf vielen Linux System ist MariaDB bereits installiert.
 Gebe folgenden Befehl ein, um zu sehen ob und welche Version von MySQL oder MariaDB installiert ist:
 ```bash
