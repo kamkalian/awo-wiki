@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T06:39:12.190Z
+date: 2021-05-30T06:47:40.000Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -97,3 +97,13 @@ Erstelle nun die Venv:
 python3 -m venv venv
 ```
 Sollte python3 noch nicht installiert sein, kannst du es mit `sudo apt-get install python3` installieren.
+Aktiviere nun die neue Venv:
+```bash
+source venv/bin/activate
+```
+![terminal_activate_venv.png](/terminal_activate_venv.png)
+Alle benötigten Module sind in der requirements.txt aufgelistet. Mit dem Tool "pip" werden diese Module installiert. Zum installieren übergeben wir dem `pip install` Befehl die Datei requirements.txt:
+```bash
+pip install -r requirements.txt
+```
+Nach kurzer Zeit sind alle benötigten Module installiert.
