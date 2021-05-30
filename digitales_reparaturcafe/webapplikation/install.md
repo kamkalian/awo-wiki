@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T06:47:40.000Z
+date: 2021-05-30T06:54:01.642Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -38,6 +38,16 @@ Die letzte Node.js Version installieren:
 nvm install --lts
 ```
 ![terminal_nvm_install_nodejs.png](/terminal_nvm_install_nodejs.png)
+
+Nachdem node.js installiert ist lassen wir alle benötigten Pakete automatisch installieren.
+Gebe dazu folgenden Befehl ein:
+```bash
+npm install
+```
+Nun lassen wir das UI der Webapplikation zusammen bauen:
+```bash
+npm run build
+```
 
 ## MySQL/MariaDB installieren
 Die Webapplikation speichert fast alle Daten in eine MySQL Datenbank. 
