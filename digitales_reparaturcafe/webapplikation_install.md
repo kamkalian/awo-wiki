@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T17:04:53.480Z
+date: 2021-05-30T17:59:54.297Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -56,10 +56,16 @@ Damit sind wir hier erstmal fertig. Die Datenbanktabellen werden später über F
 
 
 ## Webapplikation runterladen
-Der Source Code liegt auf GitHub. Am einfachsten ist es wenn das Repo direkt in das standard Verzeichnis des Webservers abgelegt wird. Wechsle also in das Verzeichnis `/var/www/html` und lade das Repo herunter. 
+Der Source Code liegt auf GitHub. Am einfachsten ist es wenn du das Repo direkt in das standard Verzeichnis des Webservers legst. Wechsle also in das Verzeichnis `/var/www` und lade das Repo herunter. 
 ```bash
-cd /var/www/html
-git clone https://github.com/kamkalian/reparaturcafe2.git
+cd /var/www/
+sudo git clone https://github.com/kamkalian/reparaturcafe2.git
+```
+Ein neues Verzeichnis "reparaturcafe2" wurde angelegt und das Repo dort rein geladen:
+![terminal_ls_var_www.png](/terminal_ls_var_www.png)
+Damit unser standard User und der Webserver auf dieses Verzeichnis zugreifen können, ändern wir den Eigentümer und die Gruppe des Verzeichnisses:
+```bash
+sudo chown awoit:www-data /var/www/reparaturcafe2
 ```
 
 
