@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-06-03T08:03:22.574Z
+date: 2021-06-03T12:00:31.012Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -199,5 +199,21 @@ Jetzt sollte bereits unser UI laufen und wir können die Webapplikation aufrufen
 Die in Python geschrieben API benötigt zum Betrieb einen kleinen WSGI Server. Hierzu installieren wir uns in der Venv das Tool `gunicorn`.
 ```bash
 pip install gunicorn
+```
+Damit wir gunicorn nicht immer manuell starten müssen, verwenden wir Supervisor.
+Zur Installation geben wir folgendes ein:
+```bash
+sudo apt-get install supervisor
+```
+Unter `/etc/supervisor/conf.d/` erstellen wir die Datei `reparaturcafe.conf` mit folgendem Inhalt:
+```
+[program:reparaturcafe]
+command=/var/www/reparaturcafe2/api/venv/bin/gunicorn -b localhost:5000 "api:create_app()"
+directory=**/home/ubuntu/microblog**
+user=awoit
+autostart=true
+autorestart=true
+stopasgroup=true
+killasgroup=true
 ```
 
