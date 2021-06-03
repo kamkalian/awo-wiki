@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-06-03T12:00:31.012Z
+date: 2021-06-03T12:05:28.595Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -207,7 +207,7 @@ sudo apt-get install supervisor
 ```
 Unter `/etc/supervisor/conf.d/` erstellen wir die Datei `reparaturcafe.conf` mit folgendem Inhalt:
 ```
-[program:reparaturcafe]
+[program:reparaturcafe2]
 command=/var/www/reparaturcafe2/api/venv/bin/gunicorn -b localhost:5000 "api:create_app()"
 directory=**/home/ubuntu/microblog**
 user=awoit
@@ -215,5 +215,10 @@ autostart=true
 autorestart=true
 stopasgroup=true
 killasgroup=true
+stderr_logfile=/var/log/supervisor/reparaturcafe2.err.log
+stdout_logfile=/var/log/supervisor/reparaturcafe2.out.log
 ```
-
+Anschließend wird Supervisor neu gestartet:
+```bash
+sudo supervisorctl reload
+```
