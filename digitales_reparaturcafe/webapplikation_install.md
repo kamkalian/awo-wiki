@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-06-03T06:25:17.874Z
+date: 2021-06-03T08:03:22.574Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -195,4 +195,9 @@ Jetzt sollte bereits unser UI laufen und wir können die Webapplikation aufrufen
 ## API einrichten
 ### Zugangsdaten über .env
 ### Datenbank Modell laden
-### API über Gunicorn laufen lassen
+### API über Gunicorn und Supervisor laufen lassen
+Die in Python geschrieben API benötigt zum Betrieb einen kleinen WSGI Server. Hierzu installieren wir uns in der Venv das Tool `gunicorn`.
+```bash
+pip install gunicorn
+```
+
