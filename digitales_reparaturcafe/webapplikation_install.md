@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-06-03T12:05:28.595Z
+date: 2021-06-03T12:06:24.943Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -209,7 +209,7 @@ Unter `/etc/supervisor/conf.d/` erstellen wir die Datei `reparaturcafe.conf` mit
 ```
 [program:reparaturcafe2]
 command=/var/www/reparaturcafe2/api/venv/bin/gunicorn -b localhost:5000 "api:create_app()"
-directory=**/home/ubuntu/microblog**
+directory=/var/www/reparaturcafe2/api
 user=awoit
 autostart=true
 autorestart=true
