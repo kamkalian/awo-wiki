@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-06-03T12:07:53.683Z
+date: 2021-06-03T12:12:54.618Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -222,3 +222,10 @@ Anschließend wird Supervisor neu gestartet:
 ```bash
 sudo supervisorctl reload
 ```
+Mit folgendem Befehl können wir schauen ob alles läuft:
+```bash
+sudo supervisorctl status
+```
+![terminal_supervisor_running.png](/terminal_supervisor_running.png)
+
+Sollte dort nicht RUNNING stehen so kann man in dem Logfile: `/var/log/supervisor/reparaturcafe2.err.log` nachschauen, was das Problem ist.
