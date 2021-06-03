@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-06-03T06:24:25.344Z
+date: 2021-06-03T06:25:17.874Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -188,7 +188,7 @@ sudo a2ensite reparaturcafe-ssl.conf
 ```
 Anschließend starten wir den Apache einmal neu:
 ```bash
-
+systemctl reload apache2
 ```
 Jetzt sollte bereits unser UI laufen und wir können die Webapplikation aufrufen.
 
