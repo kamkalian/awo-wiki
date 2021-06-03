@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-06-03T06:04:15.100Z
+date: 2021-06-03T06:16:59.563Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -181,8 +181,11 @@ Erstelle in dem Verzeichnis `/etc/apache2/sites-available` eine neue Konfigurati
 /etc/letsencrypt/live/reparaturcafe.awo-oberlar.de/privkey.pem)
 
 ## Apache2 Konfiguration aktivieren
+Nachdem die Konfiguration erstellt wurde, muss sie noch aktiviert werden.
 
-
+```bash
+sudo a2ensite reparaturcafe-ssl.conf
+```
 Jetzt sollte bereits unser UI laufen und wir können die Webapplikation aufrufen.
 
 ## API einrichten
