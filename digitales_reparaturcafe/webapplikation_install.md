@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-05-30T17:59:54.297Z
+date: 2021-06-03T06:04:15.100Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -129,7 +129,7 @@ pip install -r requirements.txt
 Nach kurzer Zeit sind alle benötigten Module installiert.
 
 
-## Webserver Apache2 installieren und einrichten
+## Webserver Apache2 installieren
 Der Webserver verarbeitet die Anfragen und schickt sie weiter an unser UI oder unsere API.
 In diesem Beispiel verwenden wir Apache2 als Webserver.
 
@@ -138,11 +138,54 @@ Installiere Apache2:
 sudo apt-get install apache2
 ```
 
-Konfiguration erstellen
+## SSL Zertifikate mit Certbot erstellen
+Damit die Webseite über HTTPS verschlüsselt wird, brauchen wir ein Zertifikat.
+Dieses Zertifikat erstellen wir uns über den Certbot.
+Dazu gibt es unter folgender Adresse eine gute Anleitung:
+[https://certbot.eff.org/lets-encrypt/ubuntufocal-apache](https://certbot.eff.org/lets-encrypt/ubuntufocal-apache)
 
-Certbot
+## Apache2 Konfiguration erstellen
+Erstelle in dem Verzeichnis `/etc/apache2/sites-available` eine neue Konfiguration (z.B. reparaturcafe-ssl.conf), mit folgendem Inhalt.
+```
+<VirtualHost _default_:443>
+        ServerName [DEINE DOMAIN]
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/reparaturcafe2/build
+        
+        <Directory /var/www/reparaturcafe2/build/>
+                AllowOverride All
+        </Directory>
+        
+        <Location /api>
+                ProxyPass http://localhost:5000/api
+                Allow from all
+        </Location>
 
-Konfiguration aktivieren
+        SSLProxyEngine on
+        SSLProxyVerify none
+        SSLProxyCheckPeerCN off
+        SSLProxyCheckPeerName off
+        SSLProxyCheckPeerExpire off
 
-Jetzt läuft bereits unser UI und wir können die Webapplikation aufrufen. (Vorrausgesetzt es gibt eine Subdomain, die auf diesen Server zeigt)
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
 
+        SSLEngine on
+        SSLCertificateFile      [PFAD ZUM ZERTIFIKAT]
+        SSLCertificateKeyFile 	[PFAD ZUM KEY]
+</VirtualHost>
+```
+- [DEINE DOMAIN]: Trage hier deine Web Adresse ein. (z.B. reparaturcafe.awo-oberlar.de)
+- [PFAD ZUM ZERTIFIKAT], [PFAD ZUM KEY]: Gebe hier die Pfade zum Zertifikat und Key an, welche du mit Certbot erstellt hast. 
+(z.B. /etc/letsencrypt/live/reparaturcafe.awo-oberlar.de/fullchain.pem,
+/etc/letsencrypt/live/reparaturcafe.awo-oberlar.de/privkey.pem)
+
+## Apache2 Konfiguration aktivieren
+
+
+Jetzt sollte bereits unser UI laufen und wir können die Webapplikation aufrufen.
+
+## API einrichten
+### Zugangsdaten über .env
+### Datenbank Modell laden
+### API über Gunicorn laufen lassen
