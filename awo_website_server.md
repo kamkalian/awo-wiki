@@ -2,7 +2,7 @@
 title: AWO Website & Server
 description: Eine eigene Wordpress Seite auf einem eigenen Server.
 published: true
-date: 2021-10-31T20:10:19.856Z
+date: 2021-10-31T20:20:55.233Z
 tags: server, wordpress, website
 editor: markdown
 dateCreated: 2021-01-20T12:31:10.394Z
