@@ -2,7 +2,7 @@
 title: User
 description: Anlegen eines User und Vergabe von Berechtigungen
 published: true
-date: 2021-01-20T18:00:09.545Z
+date: 2021-10-31T13:12:24.973Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T17:33:51.179Z
@@ -28,3 +28,10 @@ Auf dem Server sollten wir nicht mit root arbeiten, sondern einen eigenen User a
 
   
 # Sudo Privileg für User vergeben
+
+Da wir uns später nur noch mit dem neu angelegten User auf dem Server einloggen, ist es praktisch wenn dieser User bestimmte Befehle mit ''sudo'' ausführen kann.
+
+Dazu geben wir im Terminal auf dem Server folgenden Befehl ein:
+```bash
+usermod -aG sudo USERNAME
+```
