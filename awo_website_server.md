@@ -2,7 +2,7 @@
 title: AWO Website & Server
 description: Eine eigene Wordpress Seite auf einem eigenen Server.
 published: true
-date: 2021-10-31T19:56:36.855Z
+date: 2021-10-31T20:10:19.856Z
 tags: server, wordpress, website
 editor: markdown
 dateCreated: 2021-01-20T12:31:10.394Z
@@ -14,7 +14,8 @@ Begleitend zu unserem Workshop findest du hier einige Informationen und Aleitung
 - [Sicherheit*Bestimmte Logins sperren und Firewall installieren.*](/awo_website_server/sicherheit)
 - [Webserver*Apache und Pakete wie z.B. PHP installieren und einrichten.*](/awo_website_server/webserver)
 - [Datenbank*MySQL Datenbank installieren und einen User / eine Datenbank für Wordpress einrichten.*](/awo_website_server/datenbank)
-- [Wordpress*Wordpress installieren und einrichten.*](/awo_website_server/wordpress)
 - [Certbot*Zertifikat für https:// installieren und einrichten.*](/awo_website_server/certbot)
+- [Wordpress*Wordpress installieren und einrichten.*](/awo_website_server/wordpress)
+- [Joomla!*Joomla! installieren und einrichten.*](/awo_website_server/joomla)
 {.links-list}
 
