@@ -2,7 +2,7 @@
 title: Digitales ReparaturCafé
 description: 
 published: true
-date: 2021-05-30T17:03:37.364Z
+date: 2022-02-23T17:56:01.524Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T05:35:33.274Z
@@ -19,4 +19,9 @@ Dieses digitale Reparaturcafe ist eine Art Ticketsystem, dass als Werzeug zur Do
 ## Themen
 - [Einleitung*Eine kurze Erklärung des Systems*](/digitales_reparaturcafe/einleitung)
 - [Installation der Webapplikation*Benötigte Pakete sowie die Webapplikation installieren und einrichten*](/digitales_reparaturcafe/webapplikation_install)
+{.links-list}
+
+
+### Hallo
+- [Link*Eine kurze Erklärung des Systems*](/digitales_reparaturcafe/test)
 {.links-list}
