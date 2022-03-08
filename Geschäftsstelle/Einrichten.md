@@ -2,7 +2,7 @@
 title: Einrichten
 description: z.B. von Geräten, Zugängen oder sonstigen Einstellungen
 published: true
-date: 2022-03-08T13:43:16.904Z
+date: 2022-03-08T13:49:11.663Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T11:06:13.735Z
@@ -45,4 +45,12 @@ Im Menüband sollte jetzt der Bereich "Quicksteps" angezeigt werden.
 
 Weitere Felder erscheinen:
 ![betreff_eingeben.png](/geschäftsstelle_einrichten/betreff_eingeben.png)
-- Geben einen Betreff ein, der später in der Rückantwort Email stehen soll.
+1. Geben einen Betreff ein, der später in der Rückantwort Email stehen soll.
+2. Anschließend klicke auf "Fertig stellen".
+
+Damit ist nun ein Quickstep angelegt. Im Bereich "QuickSteps" kann man den neu angelegten Quickstep anklicken. Es öffnet sich dann eine neue Email mit dem vorgegebenen Betreff.
+
+## Schnellbaustein
+Innerhalb einer Email kann man mit sogenannten Schnellbausteinen einen vorgegebenen Text in den Body der Email einfügen.
+Solch einen Schnellbaustein erstellen wir uns jetzt:
+### Schnellbaustein erstellen
