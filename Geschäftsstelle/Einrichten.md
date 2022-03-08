@@ -2,7 +2,7 @@
 title: Einrichten
 description: z.B. von Geräten, Zugängen oder sonstigen Einstellungen
 published: true
-date: 2022-03-08T13:28:00.675Z
+date: 2022-03-08T13:43:16.904Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T11:06:13.735Z
