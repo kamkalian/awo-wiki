@@ -2,7 +2,7 @@
 title: Einrichten
 description: z.B. von Geräten, Zugängen oder sonstigen Einstellungen
 published: true
-date: 2022-03-08T14:07:06.510Z
+date: 2022-03-08T14:11:47.160Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T11:06:13.735Z
@@ -63,5 +63,12 @@ Solch einen Schnellbaustein erstellen wir uns jetzt:
 4. Klicke auf "Auswahl im Schnellbaustein-Katalog speichern..."
 ![schnellbaustein_speichern.png](/geschäftsstelle_einrichten/schnellbaustein_speichern.png)
 
+Es öffnet sich ein kleines Fenster, in dem wir noch einen Namen für den Schnellbaustein vergeben können:
+![schnellbaustein_erstellen.png](/geschäftsstelle_einrichten/schnellbaustein_erstellen.png)
 
+Nach einem Klick auf "OK" wird der Schnellbaustein erstellt. Die Einrichtung ist damit abgeschlossen.
+
+---
+
+Auf der Seite xxx wird erklärt wie man nun mit dem Quickstep und Schnellbaustein arbeitet.
 
