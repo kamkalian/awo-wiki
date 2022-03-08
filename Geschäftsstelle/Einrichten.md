@@ -2,7 +2,7 @@
 title: Einrichten
 description: z.B. von Geräten, Zugängen oder sonstigen Einstellungen
 published: true
-date: 2022-03-08T12:27:44.029Z
+date: 2022-03-08T13:17:39.229Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T11:06:13.735Z
@@ -40,3 +40,4 @@ Im Menüband sollte jetzt der Bereich "Quicksteps" angezeigt werden.
 2. Gebe einen Namen für den neuen Quickstep an.
 3. Bei "Aktion auswählen" wähle "Neue Nachricht" aus.
 
+![optionen_anzeigen.png](/geschäftsstelle_einrichten/optionen_anzeigen.png)
