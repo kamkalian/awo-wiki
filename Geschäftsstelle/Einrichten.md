@@ -2,7 +2,7 @@
 title: Einrichten
 description: z.B. von Geräten, Zugängen oder sonstigen Einstellungen
 published: true
-date: 2022-03-08T14:11:47.160Z
+date: 2022-03-08T14:13:58.808Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T11:06:13.735Z
@@ -20,7 +20,7 @@ Sollte der Bereich Quicksteps noch nicht im Menüband unter "Start" sichtbar sei
 
 ### Quicksteps dem Menüband hinzufügen
 1. Klicke mit der rechten Maustate irgendwo ins Menüband.
-2. Wähle dann "Menübans anpassen..." aus.
+2. Wähle dann "Menüband anpassen..." aus.
 ![outlook_menüband_anpassen.png](/geschäftsstelle_einrichten/outlook_menüband_anpassen.png)
 
 Jetzt öffnet sich ein Fenster:
@@ -30,7 +30,7 @@ Jetzt öffnet sich ein Fenster:
 4. Mit "OK" kannst du jetzt das Fenster schließen.
 ![quicksteps_hinzufügen.png](/geschäftsstelle_einrichten/quicksteps_hinzufügen.png)
 
-Im Menüband sollte jetzt der Bereich "Quicksteps" angezeigt werden und wir können einen neuen Quickstep hinzufügen.
+Im Menüband sollte jetzt der Bereich "QuickSteps" angezeigt werden und wir können einen neuen Quickstep hinzufügen.
 
 ---
 ### Neuen Quickstep hinzufügen
