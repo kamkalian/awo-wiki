@@ -2,7 +2,7 @@
 title: Einrichten
 description: z.B. von Geräten, Zugängen oder sonstigen Einstellungen
 published: true
-date: 2022-03-08T13:17:39.229Z
+date: 2022-03-08T13:28:00.675Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T11:06:13.735Z
@@ -33,11 +33,16 @@ Jetzt öffnet sich folgendes Fenster:
 Im Menüband sollte jetzt der Bereich "Quicksteps" angezeigt werden.
 
 ---
-
 ### Neuen Quickstep hinzufügen
 ![quickstep_erstellen.png](/geschäftsstelle_einrichten/quickstep_erstellen.png)
 1. Klicke auf "Neu erstellen".
 2. Gebe einen Namen für den neuen Quickstep an.
 3. Bei "Aktion auswählen" wähle "Neue Nachricht" aus.
 
+
 ![optionen_anzeigen.png](/geschäftsstelle_einrichten/optionen_anzeigen.png)
+- Aktiviere "Optionen anzeigen".
+
+Weitere Felder erscheinen:
+![betreff_eingeben.png](/geschäftsstelle_einrichten/betreff_eingeben.png)
+- Geben einen Betreff ein, der später in der Rückantwort Email stehen soll.
