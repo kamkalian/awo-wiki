@@ -2,7 +2,7 @@
 title: Template für Laufzettel
 description: 
 published: true
-date: 2022-10-18T09:38:51.484Z
+date: 2022-10-18T09:46:41.769Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:23:48.185Z
@@ -24,7 +24,6 @@ Innerhalb eines Feldes muss ein passendes Schlüsselwort angegeben werden. Eine 
 Für die Webapplikation muss die original Datei als HTML Dokument gespeichert werden.
 
 # Schlüsselwörter
-Die Schlüsselwörter entsprechen den Feldnamen im Entity-Model.
 
 |Schlüsselwort |Bedeutung |
 |:--- |:--- |
