@@ -2,7 +2,7 @@
 title: Template für Laufzettel
 description: 
 published: true
-date: 2022-10-18T09:12:13.057Z
+date: 2022-10-18T09:38:51.484Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:23:48.185Z
@@ -26,4 +26,17 @@ Für die Webapplikation muss die original Datei als HTML Dokument gespeichert we
 # Schlüsselwörter
 Die Schlüsselwörter entsprechen den Feldnamen im Entity-Model.
 
-
+|Schlüsselwort |Bedeutung |
+|:--- |:--- |
+|**cus_first_name** |Vorname des Besitzers |
+|**cus_last_name** |Nachname des Besitzers |
+|**cus_phone_no** |Telefonnummer des Besitzers |
+|**cus_email** |Emailadresse des Besitzers |
+|**tsk_creation_date** |Datum an dem der Datensatz erstellt wurde. |
+|**last_log_dat** |Datum der letzten Aktion (z.B. neuer Kommentar oder Status Änderung) |
+|**tsk_id** |Fortlaufende Nummer die jedem Gerät zugeordnet ist. |
+|**dev_name** |Bezeichnung des Gerätes |
+|**dev_mnf_name** |Hersteller |
+|**dev_model** |Modellbezeichnung des Gerätes |
+|**tsk_fault_description** |Fehlerbeschreibung |
+|**log_string** |Alle Aktionen wie z.B. Status Änderungen und Kommentare einfach untereinander geschrieben. |
