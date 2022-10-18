@@ -2,7 +2,7 @@
 title: Template für Laufzettel
 description: 
 published: true
-date: 2022-10-18T09:03:23.511Z
+date: 2022-10-18T09:12:13.057Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:23:48.185Z
@@ -12,7 +12,7 @@ dateCreated: 2022-10-18T08:23:48.185Z
 Bisher gibt es einen Druck Button, der eine Seite mit nur wenigen Informationen ausdruckt. Um weitere Informationen auf die Seite zu bringen müssen diese in der Programmierung hinzugefügt werden. Dies ist immer mit etwas Aufwand verbunden und meistens nicht zeitnah bzw. flexibel umsetzbar.
 Daher wurde eine Vorlage entwickelt die dann automatisch von der Webapplikation ausgefüllt wird.
 Diese Vorlage kann jederzeit mit einem gängigen Office Programm geändert werden.
-So können auch Admin ohne programmierkenntnisse den Ausdruck leicht ändern.
+So können auch Admins ohne programmierkenntnisse den Ausdruck leicht ändern.
 
 # Format der Vorlage
 Im original liegt die Vorlage z.B. als Word oder Libre Office Datei vor.
