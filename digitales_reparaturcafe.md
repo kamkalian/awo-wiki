@@ -2,7 +2,7 @@
 title: Digitales ReparaturCafé
 description: 
 published: true
-date: 2022-10-18T08:22:54.033Z
+date: 2022-10-18T09:07:36.267Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T05:35:33.274Z
