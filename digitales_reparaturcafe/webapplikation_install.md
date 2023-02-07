@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2023-02-07T17:45:05.817Z
+date: 2023-02-07T17:48:30.715Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -18,13 +18,13 @@ Die Installation und Einrichtung erfolgt auf der Konsole. Eine Grafische Oberfl�
 Auf vielen Linux System ist MariaDB bereits installiert.
 Gebe folgenden Befehl ein, um zu sehen ob und welche Version von MySQL oder MariaDB installiert ist:
 ```bash
-sudo mysql --version
+ mysql --version
 ```
 ![terminal_mysql_version.png](/terminal_mysql_version.png)
 
 Sollte noch kein MySQL oder MariaDB installiert sein, so kannst du eines der beiden über die Paketverwaltung installieren:
 ```bash
-sudo apt install mariadb-server
+ apt install mariadb-server
 ```
 
 
@@ -34,7 +34,7 @@ Nach der Installation, von z.B. MariaDB, sollte der Datenbank-Server laufen.
 Das Anlegen von Datenbanken und User machen wir über die mysql Konsole.
 Dazu rufen wir mysql auf:
 ```bash
-sudo mysql
+ mysql
 ```
 Wir landen nun in der Konsole und können hier weitere mysql Befehle absetzen.
 Als erstes erstellen wir die Datenbank "reparaturcafe2":
@@ -59,13 +59,13 @@ Damit sind wir hier erstmal fertig. Die Datenbanktabellen werden später über F
 Der Source Code liegt auf GitHub. Am einfachsten ist es wenn du das Repo direkt in das standard Verzeichnis des Webservers legst. Wechsle also in das Verzeichnis `/var/www` und lade das Repo herunter. 
 ```bash
 cd /var/www/
-sudo git clone https://github.com/kamkalian/reparaturcafe2.git
+ git clone https://github.com/kamkalian/reparaturcafe2.git
 ```
 Ein neues Verzeichnis "reparaturcafe2" wurde angelegt und das Repo dort rein geladen:
 ![terminal_ls_var_www.png](/terminal_ls_var_www.png)
 Damit unser standard User und der Webserver auf dieses Verzeichnis zugreifen können, ändern wir den Eigentümer und die Gruppe des Verzeichnisses:
 ```bash
-sudo chown www-data:www-data /var/www/reparaturcafe2
+ chown www-data:www-data /var/www/reparaturcafe2
 ```
 
 
@@ -78,9 +78,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 Das Script lädt NVM aus dem Github Repo [https://github.com/nvm-sh/nvm] und fügt ein paar Pfade zu deinem Bash-Profil(~/.bash_profile, ~/.zshrc, ~/.profile, oder ~/.bashrc) hinzu.
 
-Starte jetzt deine Shell neu:
+logge dich jetzt neu ein:
 ```bash
-source ~/.bashrc
+logout
 ```
 
 Folgender Befehl zeigt dir an, ob schon Node.js Versionen vorhanden sind:
@@ -116,7 +116,7 @@ Erstelle nun die Venv:
 ```bash
 python3 -m venv venv
 ```
-Sollte python3 noch nicht installiert sein, kannst du es mit `sudo apt-get install python3` installieren.
+Sollte python3 noch nicht installiert sein, kannst du es mit ` apt-get install python3` installieren.
 Aktiviere nun die neue Venv:
 ```bash
 source venv/bin/activate
@@ -135,7 +135,7 @@ In diesem Beispiel verwenden wir Apache2 als Webserver.
 
 Installiere Apache2:
 ```bash
-sudo apt-get install apache2
+ apt-get install apache2
 ```
 
 ## SSL Zertifikate mit Certbot erstellen
@@ -203,7 +203,7 @@ pip install gunicorn
 Damit wir gunicorn nicht immer manuell starten müssen, verwenden wir Supervisor.
 Zur Installation geben wir folgendes ein:
 ```bash
-sudo apt-get install supervisor
+ apt-get install supervisor
 ```
 Unter `/etc/supervisor/conf.d/` erstellen wir die Datei `reparaturcafe.conf` mit folgendem Inhalt:
 ```
@@ -220,7 +220,7 @@ stdout_logfile=/var/log/supervisor/reparaturcafe2.out.log
 ```
 Anschließend wird Supervisor neu gestartet:
 ```bash
-sudo supervisorctl reload
+ supervisorctl reload
 ```
 Mit folgendem Befehl können wir schauen ob alles läuft:
 ```bash
