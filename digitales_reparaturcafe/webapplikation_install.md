@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2023-02-07T17:48:30.715Z
+date: 2023-02-07T17:49:50.804Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -224,7 +224,7 @@ Anschließend wird Supervisor neu gestartet:
 ```
 Mit folgendem Befehl können wir schauen ob alles läuft:
 ```bash
-sudo supervisorctl status
+ supervisorctl status
 ```
 ![terminal_supervisor_running.png](/terminal_supervisor_running.png)
 
