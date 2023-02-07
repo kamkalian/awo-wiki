@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2023-02-07T17:43:54.231Z
+date: 2023-02-07T17:44:50.009Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -110,7 +110,7 @@ npm run build
 Ein Teil der Webapplikation funktioniert mit Python und dafür werden einige zusätzliche Module benötigt. Diese Module werden üblicherweise in einer eigenen Python Umgebung installiert.
 Wechsle in das api Verzeichnis, welches sich im reparaturcafe2 Verzeichnis befindet:
 ```bash
-cd reparaturcafe2/api
+cd api
 ```
 Erstelle nun die Venv:
 ```bash
