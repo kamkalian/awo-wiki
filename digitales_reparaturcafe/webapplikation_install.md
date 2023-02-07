@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2023-02-07T17:44:50.009Z
+date: 2023-02-07T17:45:05.817Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
