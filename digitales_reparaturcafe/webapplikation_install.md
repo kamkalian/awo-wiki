@@ -2,7 +2,7 @@
 title: Webapplikation und notwendige Pakete installieren
 description: 
 published: true
-date: 2021-06-03T12:12:54.618Z
+date: 2023-02-07T17:43:54.231Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-27T07:36:34.340Z
@@ -65,7 +65,7 @@ Ein neues Verzeichnis "reparaturcafe2" wurde angelegt und das Repo dort rein gel
 ![terminal_ls_var_www.png](/terminal_ls_var_www.png)
 Damit unser standard User und der Webserver auf dieses Verzeichnis zugreifen können, ändern wir den Eigentümer und die Gruppe des Verzeichnisses:
 ```bash
-sudo chown awoit:www-data /var/www/reparaturcafe2
+sudo chown www-data:www-data /var/www/reparaturcafe2
 ```
 
 
