@@ -2,7 +2,7 @@
 title: Home
 description: Wiki auf dem Server in der AWO Oberlar
 published: 1
-date: 2023-12-20T11:19:22.708Z
+date: 2023-12-20T11:28:00.127Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:28.582Z
@@ -27,9 +27,11 @@ Zudem hinterlegen wir hier auch Schritt für Schritt Anleitungen, die als Beglei
 
 # IT intern
 Nachfolgende Anwendungen sind nur im lokalen Netzwerk erreichbar.
-- [OPNsense [ https://10.10.10.1/ ] *Open Source Security Plattform. Übernimmt Routing Aufgaben. Dadurch *](https://10.10.10.1/)
+- [OPNsense [ https://10.10.10.1/ ] *Open Source Security Plattform. Übernimmt Routing Aufgaben. Die Fritzbox wird nur im Bridge Modus betrieben.*](https://10.10.10.1/)
 {.links-list}
 - [Proxmox [ https://10.10.10.2:8006 ] *Eigener Server im Keller mit Virtualisierungsplattform.*](https://10.10.10.2:8006)
+{.links-list}
+- [Homeassistant [ http://10.10.10.83:8123/ ] *Open Source Heimautomatisierung. Auf dieser Plattform laufen verschiedene Dienste, wie z.B. Grafana, MQTT, NodeRed. Genutzt wird es.*](http://10.10.10.83:8123/)
 {.links-list}
 
 
