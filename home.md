@@ -2,7 +2,7 @@
 title: Home
 description: Wiki auf dem Server in der AWO Oberlar
 published: 1
-date: 2023-12-20T10:34:50.971Z
+date: 2023-12-20T11:19:22.708Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:28.582Z
