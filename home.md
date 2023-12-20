@@ -2,7 +2,7 @@
 title: Hallo.
 description: Wiki auf dem Server in der AWO Oberlar
 published: 1
-date: 2023-12-20T09:42:18.365Z
+date: 2023-12-20T09:49:41.091Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:28.582Z
@@ -19,7 +19,7 @@ Zudem hinterlegen wir hier auch Schritt für Schritt Anleitungen, die als Beglei
 
 - [ReparaturCafe [ https://reparaturcafe.it-awo.de ] *Das Reparaturcafe findet alle 14 Tage Mittwochs von 15-18 Uhr statt. Alle angenommenen Geräte werden in unserer Datenbank erfasst.*](https://reparaturcafe.it-awo.de)
 - [Uptime Kuma [ https://uptime.it-awo.de ] *Status Übersicht der einzelnen Anwendungen und Geräte mit Live Anzeige der Erreichbarkeit.*](https://uptime.it-awo.de)
-- [Visual Editor [ https://uptime.it-awo.de ] *Rich-Text WYSIWYG*](https://uptime.it-awo.de)
+- [Bitwarden [ https://bitwarden.it-awo.de ] *Passwort Tressor. Hier hinterlegen wir alle Passwörter*](https://uptime.it-awo.de)
 {.links-list}
 
 # IT intern
