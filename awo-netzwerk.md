@@ -1,14 +1,28 @@
 ---
 title: AWO Netzwerk Dokumentation
 description: 
-published: true
-date: 2021-10-31T20:36:29.279Z
+published: 1
+date: 2023-12-21T06:47:47.724Z
 tags: 
 editor: markdown
-dateCreated: 2021-06-03T05:11:24.269Z
+dateCreated: 2023-12-19T16:10:18.933Z
 ---
 
-Mit der Förderung aus 2020 konnten wir durch den Kauf von Unifi Geräten unser Netzwerk verbessern. Mit den Dokumentationen soll klar werden wie das Netzwerk aufgebaut ist und mit welchen Tools es administriert werden kann.
+Das Netzwerk besteht im wesentlichen aus:
+- **Netzwerkdosen**, verbaut an Wänden und in Bodentanks.
+- **Unify Accesspoints**, einer im Keller nähe der Treppe unter der Decke und einer oben im großen Raum.
+- **LAN-Kabeln**, die bis zum Patchfeld im Serverschrank führen.
+- **Unify Switch**, verbaut im Serverschrank.
+
+
+## Übersicht der verbauten Hardware
+sdfkljfsdf
+
+## Welche Netzwerkkabel gehen wohin?
+fdsfsdf
+
+
+
 
 - [Unifi Karte*Eine Übersicht der verbauten Hardware*](/awo-netzwerk/unifi_karte)
 - [Patchfeld Nummerierung*Welche Netzwerkkabel gehen wohin?*](/awo-netzwerk/patchfeld_nummerierung)
