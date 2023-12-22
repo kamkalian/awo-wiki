@@ -2,7 +2,7 @@
 title: AWO Netzwerk Dokumentation
 description: 
 published: 1
-date: 2023-12-22T07:33:20.892Z
+date: 2023-12-22T07:35:07.057Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:18.933Z
@@ -19,11 +19,6 @@ Das Netzwerk besteht im wesentlichen aus:
 ![unifi_karte.png](/unifi_karte.png)
 
 ## Welche Netzwerkkabel gehen wohin?
-fdsfsdf
+![patchfeld_nummerierung.jpg](/patchfeld_nummerierung.jpg)
 
 
-
-
-- [Unifi Karte*Eine Übersicht der verbauten Hardware*](/awo-netzwerk/unifi_karte)
-- [Patchfeld Nummerierung*Welche Netzwerkkabel gehen wohin?*](/awo-netzwerk/patchfeld_nummerierung)
-{.links-list}
