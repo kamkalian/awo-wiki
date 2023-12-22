@@ -2,7 +2,7 @@
 title: AWO Netzwerk Dokumentation
 description: 
 published: 1
-date: 2023-12-21T06:47:47.724Z
+date: 2023-12-22T07:33:20.892Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:18.933Z
@@ -16,7 +16,7 @@ Das Netzwerk besteht im wesentlichen aus:
 
 
 ## Übersicht der verbauten Hardware
-sdfkljfsdf
+![unifi_karte.png](/unifi_karte.png)
 
 ## Welche Netzwerkkabel gehen wohin?
 fdsfsdf
