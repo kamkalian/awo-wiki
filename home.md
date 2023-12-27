@@ -2,7 +2,7 @@
 title: Home
 description: Wiki auf dem Server in der AWO Oberlar
 published: 1
-date: 2023-12-27T20:53:36.172Z
+date: 2023-12-27T21:00:53.870Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:28.582Z
@@ -27,13 +27,13 @@ Zudem hinterlegen wir hier auch Schritt für Schritt Anleitungen, die als Beglei
 
 # IT intern
 Nachfolgende Anwendungen sind nur im lokalen Netzwerk erreichbar.
-- [OPNsense [ https://10.10.10.1/ ] *Open Source Security Plattform. Übernimmt Routing Aufgaben. Die Fritzbox wird nur im Bridge Modus betrieben.*](https://10.0.0.1/)
+- [OPNsense [ https://10.0.0.1/ ] *Open Source Security Plattform. Übernimmt Routing Aufgaben. Die Fritzbox wird nur im Bridge Modus betrieben.*](https://10.0.0.1/)
 {.links-list}
-- [Proxmox [ https://10.10.10.2:8006 ] *Eigener Server im Keller mit Virtualisierungsplattform.*](https://10.10.10.2:8006)
+- [Proxmox [ https://10.0.0.2:8006 ] *Eigener Server im Keller mit Virtualisierungsplattform.*](https://10.0.0.2:8006)
 {.links-list}
-- [Homeassistant [ http://10.10.11.10:8123 ] *Open Source Heimautomatisierung. Auf dieser Plattform laufen verschiedene Dienste, wie z.B. Grafana, MQTT, NodeRed. Genutzt wird es um z.B. den Stromverbrauch in der Geschäftsstelle zu erfassen und Auszuwerten.*](http://10.0.1.10:8123)
+- [Homeassistant [ http://10.0.1.10:8123 ] *Open Source Heimautomatisierung. Auf dieser Plattform laufen verschiedene Dienste, wie z.B. Grafana, MQTT, NodeRed. Genutzt wird es um z.B. den Stromverbrauch in der Geschäftsstelle zu erfassen und Auszuwerten.*](http://10.0.1.10:8123)
 {.links-list}
-- [Grafana [ http://10.10.11.10:3000 ] *Open Source Heimautomatisierung. Auf dieser Plattform laufen verschiedene Dienste, wie z.B. Grafana, MQTT, NodeRed. Genutzt wird es um z.B. den Stromverbrauch in der Geschäftsstelle zu erfassen und Auszuwerten.*](http://10.0.1.10:3000)
+- [Grafana [ http://10.0.1.10:3000 ] *Open Source Heimautomatisierung. Auf dieser Plattform laufen verschiedene Dienste, wie z.B. Grafana, MQTT, NodeRed. Genutzt wird es um z.B. den Stromverbrauch in der Geschäftsstelle zu erfassen und Auszuwerten.*](http://10.0.1.10:3000)
 {.links-list}
 
 
