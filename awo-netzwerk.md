@@ -2,7 +2,7 @@
 title: AWO Netzwerk Dokumentation
 description: 
 published: 1
-date: 2024-01-02T18:55:38.767Z
+date: 2024-01-02T18:57:35.053Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:18.933Z
@@ -15,6 +15,7 @@ Das Netzwerk besteht im wesentlichen aus:
 - **Unify Switch**, verbaut im Serverschrank.
 
 ![awo_netzwerk.png](/awo_netzwerk.png)
+
 ## Übersicht der verbauten Hardware
 ![unifi_karte.png](/unifi_karte.png)
 
