@@ -2,7 +2,7 @@
 title: Home
 description: Wiki auf dem Server in der AWO Oberlar
 published: 1
-date: 2024-01-03T11:46:17.828Z
+date: 2024-01-08T16:10:18.549Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:28.582Z
@@ -32,6 +32,7 @@ Nachfolgende Anwendungen sind nur im lokalen Netzwerk erreichbar.
 - [Proxmox [ https://10.1.0.2:8006 ] *Eigener Server im Keller mit Virtualisierungsplattform.*](https://10.1.0.2:8006)
 - [Homeassistant [ http://10.0.1.10:8123 ] *Open Source Heimautomatisierung. Auf dieser Plattform laufen verschiedene Dienste, wie z.B. Grafana, MQTT, NodeRed. Genutzt wird es um z.B. den Stromverbrauch in der Geschäftsstelle zu erfassen und Auszuwerten.*](http://10.0.1.10:8123)
 - [Grafana [ http://10.0.1.10:3000 ] *Open Source Heimautomatisierung. Auf dieser Plattform laufen verschiedene Dienste, wie z.B. Grafana, MQTT, NodeRed. Genutzt wird es um z.B. den Stromverbrauch in der Geschäftsstelle zu erfassen und Auszuwerten.*](http://10.0.1.10:3000)
+- [Unify Controller [https://10.1.0.3:8443/] *Weboberfläche zum konfigurieren der Unify Geräte.*](https://10.1.0.3:8443/)
 {.links-list}
 
 
