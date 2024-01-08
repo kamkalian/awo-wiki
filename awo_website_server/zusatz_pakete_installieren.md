@@ -1,11 +1,11 @@
 ---
 title: Zusätzliche Pakete installieren
 description: Zusätzliche Pakete installieren
-published: true
-date: 2021-10-31T20:26:31.015Z
+published: 1
+date: 2024-01-08T16:26:25.027Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T20:26:31.015Z
+dateCreated: 2023-12-19T16:11:02.646Z
 ---
 
 Zum Betrieb von Joomla! sind noch weitere Pakete notwendig.
