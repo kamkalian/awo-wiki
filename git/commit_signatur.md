@@ -1,11 +1,11 @@
 ---
 title: Git Commits mit Signaturen
 description: 
-published: true
-date: 2021-05-27T07:16:04.829Z
+published: 1
+date: 2024-01-08T16:22:09.281Z
 tags: 
 editor: markdown
-dateCreated: 2021-05-25T18:33:43.560Z
+dateCreated: 2023-12-19T16:11:12.261Z
 ---
 
 # Git Commits immer mit Signatur
