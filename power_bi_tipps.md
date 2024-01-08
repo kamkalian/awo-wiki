@@ -1,11 +1,11 @@
 ---
 title: Power BI Tipps
 description: Kurze Anleitungen mit Tipps zu Power BI Themen
-published: true
-date: 2021-06-03T05:20:48.130Z
+published: 1
+date: 2024-01-08T16:36:01.932Z
 tags: 
 editor: markdown
-dateCreated: 2021-05-25T07:41:56.028Z
+dateCreated: 2023-12-19T16:10:30.467Z
 ---
 
 # Anleitungen
