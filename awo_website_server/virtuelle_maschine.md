@@ -1,11 +1,11 @@
 ---
 title: Virtuelle Maschine
 description: Virtuelle Maschine mit SSH Key buchen.
-published: true
-date: 2021-05-25T13:42:56.928Z
+published: 1
+date: 2024-01-08T16:28:15.115Z
 tags: 
 editor: markdown
-dateCreated: 2021-01-20T15:08:40.829Z
+dateCreated: 2023-12-19T16:10:56.845Z
 ---
 
 # Virtuelle Maschine
