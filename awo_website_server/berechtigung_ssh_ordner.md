@@ -1,11 +1,11 @@
 ---
 title: Berechtigung für .ssh Ordner
 description: Berechtigung für .ssh Ordner
-published: true
-date: 2021-10-31T20:20:16.641Z
+published: 1
+date: 2024-01-08T16:34:56.402Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T20:17:43.205Z
+dateCreated: 2023-12-19T16:10:38.070Z
 ---
 
 Die Berechtigung für den Ordner sollte so aussehen:
