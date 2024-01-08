@@ -1,11 +1,11 @@
 ---
 title: User
 description: Anlegen eines User und Vergabe von Berechtigungen
-published: true
-date: 2021-10-31T13:12:24.973Z
+published: 1
+date: 2024-01-08T16:28:41.569Z
 tags: 
 editor: markdown
-dateCreated: 2021-01-20T17:33:51.179Z
+dateCreated: 2023-12-19T16:10:54.970Z
 ---
 
 # Neuen User anlegen
