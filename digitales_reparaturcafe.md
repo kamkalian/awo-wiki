@@ -1,11 +1,11 @@
 ---
 title: Digitales ReparaturCafé
 description: 
-published: true
-date: 2022-10-18T09:07:36.267Z
+published: 1
+date: 2024-01-08T16:37:07.706Z
 tags: 
 editor: markdown
-dateCreated: 2021-01-21T05:35:33.274Z
+dateCreated: 2023-12-19T16:10:24.820Z
 ---
 
 Dieses digitale Reparaturcafe ist eine Art Ticketsystem, dass als Werzeug zur Dokumentation von Reparaturen dient.
