@@ -1,11 +1,11 @@
 ---
 title: Problem mit Permalinks in Wordpress
 description: Kurze Erklärung, wenn Seiten nicht mehr abgespeichert werden können
-published: true
-date: 2021-10-31T20:41:25.727Z
+published: 1
+date: 2024-01-08T16:31:11.410Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T20:41:25.727Z
+dateCreated: 2023-12-19T16:10:49.322Z
 ---
 
 **Problem**: Seiten können nicht mehr abgespeichert werden.
