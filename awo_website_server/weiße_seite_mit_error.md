@@ -1,11 +1,11 @@
 ---
 title: Weiße Seite mit "Error"
 description: Nach der Installation wird eine weiße Seite mit dem Text "Error" angezeigt?
-published: true
-date: 2021-10-31T20:27:19.713Z
+published: 1
+date: 2024-01-08T16:27:14.453Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T20:25:33.901Z
+dateCreated: 2023-12-19T16:11:00.779Z
 ---
 
 Solltet wir nach dem Installation von Wordpress oder Joomla!
