@@ -1,11 +1,11 @@
 ---
 title: Joomla!
 description: Joomla! installieren und einrichten
-published: true
-date: 2021-10-31T20:13:36.757Z
+published: 1
+date: 2024-01-08T16:31:50.341Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T20:13:36.757Z
+dateCreated: 2023-12-19T16:10:47.422Z
 ---
 
 # Joomla! installieren
