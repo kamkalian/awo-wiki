@@ -2,7 +2,7 @@
 title: Installierte Pakete anzeigen
 description: So kannst du nachschauen ob ein Paket schon installiert ist.
 published: 1
-date: 2024-01-08T16:32:20.343Z
+date: 2024-01-08T16:32:28.024Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:45.559Z
