@@ -1,11 +1,11 @@
 ---
 title: Subdomain Weiterleitung
 description: Wie kann man mehrere Subdomains, auf einem Server, auf unterschiedliche Seiten/Dienste weiterleiten?
-published: true
-date: 2021-01-25T19:37:29.324Z
-tags: apache, webserver, weiterleitung, subdomain
+published: 1
+date: 2024-01-08T16:19:07.524Z
+tags: apache, subdomain, webserver, weiterleitung
 editor: markdown
-dateCreated: 2021-01-25T18:32:38.520Z
+dateCreated: 2023-12-19T16:11:17.859Z
 ---
 
 # Subdomain Weiterleitung
