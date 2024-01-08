@@ -1,11 +1,11 @@
 ---
 title: E-Mail Vorlage Reservierungsbestätigung
 description: Wie versende ich eine Reservierungsbestätigung über unsere Outlook Vorlage
-published: true
-date: 2022-02-23T18:14:57.275Z
+published: 1
+date: 2024-01-08T16:20:02.744Z
 tags: 
 editor: markdown
-dateCreated: 2022-02-23T18:13:13.648Z
+dateCreated: 2023-12-19T16:11:16.011Z
 ---
 
 # Header
