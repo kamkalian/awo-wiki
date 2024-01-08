@@ -1,11 +1,11 @@
 ---
 title: Webserver
 description: Apache und Pakete wie z.B. PHP installieren und einrichten.
-published: true
-date: 2021-10-31T20:08:42.921Z
+published: 1
+date: 2024-01-08T16:27:43.919Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T15:45:39.523Z
+dateCreated: 2023-12-19T16:10:58.818Z
 ---
 
 # Webserver installieren
