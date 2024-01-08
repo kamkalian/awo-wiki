@@ -1,13 +1,12 @@
 ---
 title: Einleitung
 description: 
-published: true
-date: 2021-05-30T17:05:50.387Z
+published: 1
+date: 2024-01-08T16:25:42.376Z
 tags: 
 editor: markdown
-dateCreated: 2021-05-30T17:00:22.187Z
+dateCreated: 2023-12-19T16:11:04.508Z
 ---
-
 
 # Was steckt hinter der Webapplikation?
 Die Webapplikation ist eine mit React.js und Python geschriebene Anwendung.
