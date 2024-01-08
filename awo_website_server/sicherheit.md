@@ -1,11 +1,11 @@
 ---
 title: Sicherheit
 description: Bestimmte Logins sperren und Firewall installieren
-published: true
-date: 2021-10-31T13:55:53.559Z
+published: 1
+date: 2024-01-08T16:29:14.190Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T13:49:38.027Z
+dateCreated: 2023-12-19T16:10:53.066Z
 ---
 
 # Login via Passwort sperren
