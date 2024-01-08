@@ -1,8 +1,8 @@
 ---
-title: Einrichten
-description: z.B. von Geräten, Zugängen oder sonstigen Einstellungen
+title: Schnelle Rückantwort in Outlook einrichten
+description: z.B. für die schnelle Beantwortung von Reservierungsanfragen
 published: 1
-date: 2024-01-08T16:35:25.152Z
+date: 2024-01-08T16:42:58.138Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:32.390Z
