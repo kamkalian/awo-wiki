@@ -1,11 +1,11 @@
 ---
 title: Datenbank
 description: MySQL Datenbank installieren und einen User / eine Datenbank für Wordpress einrichten.
-published: true
-date: 2021-10-31T16:07:22.541Z
+published: 1
+date: 2024-01-08T16:33:15.417Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T16:07:22.541Z
+dateCreated: 2023-12-19T16:10:43.676Z
 ---
 
 # MySQL installieren
