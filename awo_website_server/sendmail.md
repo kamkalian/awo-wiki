@@ -1,11 +1,11 @@
 ---
 title: Sendmail
 description: Sendmail installieren und einrichten
-published: true
-date: 2021-10-31T20:33:44.166Z
+published: 1
+date: 2024-01-08T16:30:24.073Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T20:33:44.166Z
+dateCreated: 2023-12-19T16:10:51.197Z
 ---
 
 # Sendmail installieren
