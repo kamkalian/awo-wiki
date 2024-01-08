@@ -1,11 +1,11 @@
 ---
 title: AWO Website & Server
 description: Eine eigene Wordpress Seite auf einem eigenen Server.
-published: true
-date: 2021-10-31T20:36:02.451Z
-tags: server, wordpress, website
+published: 1
+date: 2024-01-08T16:37:37.229Z
+tags: server, website, wordpress
 editor: markdown
-dateCreated: 2021-01-20T12:31:10.394Z
+dateCreated: 2023-12-19T16:10:22.905Z
 ---
 
 Begleitend zu unserem Workshop findest du hier einige Informationen und Anleitungen, um eine eigene Wordpress Seite mit einem eigenen Server aufzubauen.
