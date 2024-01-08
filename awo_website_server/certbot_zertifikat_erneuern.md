@@ -1,11 +1,11 @@
 ---
 title: Certbot Zertifikat erneuern
 description: Certbot Zertifikat erneuern
-published: true
-date: 2021-10-31T20:19:56.598Z
+published: 1
+date: 2024-01-08T16:33:50.295Z
 tags: 
 editor: markdown
-dateCreated: 2021-10-31T20:19:56.598Z
+dateCreated: 2023-12-19T16:10:41.825Z
 ---
 
 Alle drei Monate läuft das Zertifikat ab und muss erneuert werden.
