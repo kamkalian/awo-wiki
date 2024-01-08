@@ -1,11 +1,11 @@
 ---
 title: Commit eines leeren Ordners
 description: 
-published: true
-date: 2021-05-30T18:22:58.757Z
+published: 1
+date: 2024-01-08T16:22:44.447Z
 tags: 
 editor: markdown
-dateCreated: 2021-05-30T18:20:10.313Z
+dateCreated: 2023-12-19T16:11:10.382Z
 ---
 
 In Git ist es nicht möglich ein leeres Verzeichnis (z.B. images), durch einen Commit ins Repo einzubinden.
