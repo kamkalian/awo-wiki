@@ -1,11 +1,11 @@
 ---
 title: Seitengröße ändern
 description: 
-published: true
-date: 2021-05-25T13:31:03.687Z
+published: 1
+date: 2024-01-08T16:21:21.718Z
 tags: 
 editor: markdown
-dateCreated: 2021-05-25T10:53:29.315Z
+dateCreated: 2023-12-19T16:11:14.125Z
 ---
 
 # Seitengröße ändern
