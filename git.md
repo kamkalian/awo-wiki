@@ -1,11 +1,11 @@
 ---
 title: Git
 description: 
-published: true
-date: 2021-06-03T05:21:09.973Z
+published: 1
+date: 2024-01-08T16:36:40.924Z
 tags: 
 editor: markdown
-dateCreated: 2021-05-27T07:18:28.502Z
+dateCreated: 2023-12-19T16:10:26.706Z
 ---
 
 # Anleitungen und Tipps zur Benutzung von Git
