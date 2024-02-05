@@ -2,7 +2,7 @@
 title: Home
 description: Wiki auf dem Server in der AWO Oberlar
 published: 1
-date: 2024-01-16T17:41:37.421Z
+date: 2024-02-05T16:56:28.394Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:28.582Z
@@ -27,12 +27,9 @@ Zudem hinterlegen wir hier auch Schritt für Schritt Anleitungen, die als Beglei
 
 # IT intern
 Nachfolgende Anwendungen sind nur im lokalen Netzwerk erreichbar.
-- [OPNsense [ https://? ] *Open Source Security Plattform. Übernimmt Routing Aufgaben. Die Fritzbox wird nur im Bridge Modus betrieben. (nur im AWO_Technik Netzwerk erreichbar)*]()
-- [AdGuard [ https://?:3000/ ] *Blocker für Werbung und Tracking (nur im AWO_Technik Netzwerk erreichbar)*](https://?:3000/)
 - [Proxmox [ https://10.0.1.9:8006 ] *Eigener Server im Keller mit Virtualisierungsplattform.*](https://10.0.1.9:8006)
 - [Homeassistant [ http://10.0.1.56:8123 ] *Open Source Heimautomatisierung. Auf dieser Plattform laufen verschiedene Dienste, wie z.B. Grafana, MQTT, NodeRed. Genutzt wird es um z.B. den Stromverbrauch in der Geschäftsstelle zu erfassen und Auszuwerten.*](http://10.0.1.56:8123)
 - [Grafana [ http://10.0.1.56:3000 ] *Open Source Heimautomatisierung. Auf dieser Plattform laufen verschiedene Dienste, wie z.B. Grafana, MQTT, NodeRed. Genutzt wird es um z.B. den Stromverbrauch in der Geschäftsstelle zu erfassen und Auszuwerten.*](http://10.0.1.56:3000)
-- [Unify Controller [https://?:8443/] *Weboberfläche zum konfigurieren der Unify Geräte.*](https://1?:8443/)
 {.links-list}
 
 
