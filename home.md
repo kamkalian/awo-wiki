@@ -2,7 +2,7 @@
 title: Home
 description: Wiki auf dem Server in der AWO Oberlar
 published: 1
-date: 2024-02-05T16:56:28.394Z
+date: 2025-03-26T16:04:39.985Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-19T16:10:28.582Z
@@ -19,7 +19,7 @@ Zudem hinterlegen wir hier auch Schritt für Schritt Anleitungen, die als Beglei
 - [AWO Webseite [ https://awo-oberlar.de ] *Internetauftritt der AWO Oberlar. Gehostet auf einer VM bei Hetzner. Domain liegt bei Strato.*](https://awo-oberlar.de)
 - [Cloud [ https://cloud.awo-oberlar.de ] *Selbst gehostete Nextcloud auf der gleiche VM wie AWO Webseite.*](https://cloud.awo-oberlar.de)
 - [ReparaturCafe [ https://reparaturcafe.it-awo.de ] *Alle angenommenen Geräte werden in unserer Datenbank erfasst. Das Reparaturcafe findet alle 14 Tage Mittwochs von 15-18 Uhr statt.*](https://reparaturcafe.it-awo.de)
-- [Vaultwarden [ https://bitwarden.it-awo.de ] *Passwort Tressor. Hier hinterlegen wir alle Passwörter für den Verein. Zusätzlich verwalten sich registrierte User eigene Tressore.*](https://bitwarden.it-awo.de)
+- [Vaultwarden [ https://bitwarden.it-awo.de ] *Passwort Tressor*](https://bitwarden.it-awo.de)
 - [Uptime Kuma [ https://uptime.it-awo.de ] *Status Übersicht der einzelnen Anwendungen und Geräte mit Live Anzeige der Erreichbarkeit.*](https://uptime.it-awo.de)
 - [Grafana [ https://grafana.it-awo.de ] *Diverse Dashboards mit Auswertungen. Aktuell zum Thema Stromverbrauch und Reparaturcafe.*](https://grafana.it-awo.de)
 {.links-list}
